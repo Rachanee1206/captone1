@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    font-family:fantasy;
+    background-color: rgb(231, 205, 173);
+}
+
+.topnav{
+    overflow:hidden;
+    background-color:beige;
+}
+.topnav a{
+   float: left;
+   display: block; 
+   color: rgb(96, 183, 237);
+   text-align: center;
+   padding: 15px 15px;
+   text-decoration: none;
+   font-size: 17px;
+}
+.topnav a:hover{
+    background-color: cornflowerblue;
+    text-decoration: underline;
+}
+.topnav a.active{
+    background-color:cadetblue ;
+    color: khaki;
+}
